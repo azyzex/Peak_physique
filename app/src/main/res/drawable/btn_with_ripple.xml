@@ -1,0 +1,21 @@
+<!-- btn_with_ripple.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight"> <!-- Ripple color -->
+
+    <!-- Background Shape (White) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- White color -->
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+
+    <!-- Border (White) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- White color -->
+            <stroke android:color="#FFFFFF" android:width="1dp"/>
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nigz"
+    android:layout_width="match_parent"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Gender Selection -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="-100dp"
+        android:padding="50dp"
+        app:srcCompat="@drawable/fitbody" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:fontFamily="@font/red_rose_light"
+            android:text="enter new height and weight" />
+    </LinearLayout>
+
+
+
+    <!-- Height Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:paddingTop="16dp"
+        android:textColor="@color/black"
+        android:text="Height (cm)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/dark_gray"
+        android:background="@drawable/btn1"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:hint="Enter height in Cm"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <!-- Weight Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:paddingTop="16dp"
+        android:textColor="@color/black"
+        android:text="Weight (kg)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextweight"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/dark_gray"
+        android:background="@drawable/btn1"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:hint="Enter weight in Kg"
+        android:inputType="numberDecimal"
+        android:padding="8dp" />
+
+    <!-- Age Input -->
+
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_gray"
+        android:background="#AEE7E0"
+        android:fontFamily="@font/red_rose_light"
+        android:text="confirm" />
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:paddingTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <!-- Buttons at the bottom -->
+
+
+</LinearLayout>
